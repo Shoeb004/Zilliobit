@@ -1,0 +1,56 @@
+.splash-screen {
+    height: 100vh;
+    background-image: url('../assets/t00/splash-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-spalsh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.main-container-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.first-haeding{
+    font-size: 30px;
+   margin: 0;
+   margin-top: 100px;
+}
+
+.course-heading{
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.secound-haeding{
+    margin: 0;
+    font-size: 18px;
+}
+.secound-haeding span{
+    font-weight: bold;
+}
+.start-btn{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #68fff3;
+    cursor: pointer;
+}

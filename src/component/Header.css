@@ -1,0 +1,54 @@
+.Header1{
+    position: absolute;
+    width: 100vw;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+.logo-container ul li{
+    list-style: none;
+    border-left: 1px solid white;
+    padding: 0 15px;
+}
+.logo-container ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    /* font-weight: 500; */
+}
+.cyber-safety{
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo-container{
+    display: flex;
+}
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.Header ul{
+    display: flex;
+    margin: 0;
+}
+.rigt-container li{
+    width: 75px;
+    list-style: none;
+    /* margin-left: 50px; */
+}
+
+.Header ul li button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Header ul li button span{
+    color: #fff;
+    font-size: 18px;
+}

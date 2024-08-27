@@ -1,0 +1,49 @@
+.policy-page {
+    height: 100vh;
+    background-image: url('../assets/t00/common-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px 20px;
+}
+.white-bg-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-container{
+    width: 45%;
+}
+.description-container p{
+    font-size: 20px;
+}
+.policy-description-centre{
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    z-index: 4;
+    font-size: 30px;
+    color: #fff;
+}
+.img-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.policy-dummy-img{
+    position: relative;
+    z-index: 2;
+}
+.policy-pattern-img{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.policy-zoomin-img{
+    width: 30px;
+    position: absolute;
+    z-index: 3;
+    position: absolute;
+    bottom: 100px;
+    right: 260px;
+}

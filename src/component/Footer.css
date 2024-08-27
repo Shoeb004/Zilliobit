@@ -1,0 +1,34 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.back-btn, .next-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.midle-heading{
+    color: #fff;
+}
+.midle-heading span{
+    font-weight: bold;
+    cursor: pointer;
+}
+.back-btn img, .next-btn img{
+    width: 45px;
+}
+.back-btn span, .next-btn span{
+    color: #fff;
+    margin: 0 10px;
+}
